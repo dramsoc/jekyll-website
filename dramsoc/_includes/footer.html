@@ -1,0 +1,75 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Imperial College Dramatic Society</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+        </ul>
+      <p>
+        Imperial College Dramatic Society<br>
+        Imperial College Union<br>
+        Beit Quadrangle, Prince Consort Road<br>
+        South Kensington, LONDON SW7 2BB
+      </p>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>
+          DramSoc is a part of Imperial College Union,
+          which is a UK Registered Charity, Number
+          1151241.
+        </p>
+        <div class="footer-logo">
+          <a href="https://imperialcollegeunion.org">
+            <img class="footer-logo-img" src="/assets/footer/icu.png" 
+              alt="Imperial College Union Logo">
+          </a>
+
+          <a href="https://dramsoc.org/">
+            <img class="footer-logo-img" src="/assets/footer/dramsoc.png" 
+              alt="DramSoc Logo">
+          </a>
+      <br>
+          <a href="http://www.imperial.ac.uk">
+            <img class="footer-logo-img" src="/assets/footer/imperial.png" 
+              alt="Imperial College London Logo">
+          </a>
+
+          <a href="http://www.comus.org.uk/">
+            <img class="footer-logo-img" src="/assets/footer/comus.png" 
+              alt="Comus Logo">
+          </a>
+      </div>
+
+      </div>
+
+      <div class="footer-col footer-col-3">       
+        <ul>
+          {% for item in site.data.navigation_footer %}
+          <li><a href="{{ item.link }}" {% if item.link == page.url %}class="active"{% endif %}>{{ item.name }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      
+    <div class="copyright">
+      © 2002-2017 Imperial College Dramatic Society<br>
+      <a href="mailto:publicity@dramsoc.org">publicity@dramsoc.org</a><br>
+      <a href="mailto:sysadmin@dramsoc.org">sysadmin@dramsoc.org</a>
+    </div>
+  </div>
+
+</footer>

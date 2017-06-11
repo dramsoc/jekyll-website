@@ -1,0 +1,20 @@
+<nav>
+  {% for item in site.data.navigation %}
+  <div class="dropdown">
+    <a href="{{ item.link }}" class="dropbtn{% if item.link == page.url %}
+    active{% endif %}">
+      {{ item.name }}
+    </a>
+
+    {% if item.submenu %}
+    <div class="dropdown-menu">
+      {% for subitem in item.submenu %}
+      <a class="dropdown-item" href="{{ subitem.link }}">
+        {{ subitem.title }}
+      </a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endfor %}
+</nav>

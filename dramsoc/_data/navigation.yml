@@ -1,0 +1,24 @@
+- link: /
+  name: Home
+
+- link: /about/
+  name: About
+  submenu: navigation_about
+
+- link: /shows
+  name: Shows & Acting
+
+- link: /technicalservices
+  name: Technical Services
+
+- link: https://www.imperialcollegeunion.org/shop/club-society-project-products/dramsoc-products/13854/dramsoc-membership-16-17
+  name: Join Us
+
+- link: /tickets
+  name: Shop & Tickets
+
+- link: /members
+  name: Members' Information
+
+- link: /contact
+  name: Contact Us

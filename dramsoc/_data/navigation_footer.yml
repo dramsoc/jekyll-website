@@ -1,0 +1,38 @@
+- link: /
+  name: Home
+
+- link: /about/
+  name: About
+
+- link: /about/gallery
+  name: Gallery
+
+- link: /contact
+  name: Contact Us
+
+- name: Shows & Acting
+  link: /shows
+
+- name: Terms & Conditions
+  link: /technicalservices/terms
+
+- name: Cookies
+  link: /about/cookies
+
+- name: Mailing Lists 
+  link: /talk
+
+- name: The Comus Club 
+  link: http://comus.org.uk/
+
+- name: Imperial College Union
+  link: http://www.imperialcollegeunion.org/
+
+- name: DramSoc at ICU
+  link: https://www.imperialcollegeunion.org/activities/a-to-z/406
+
+- name: Imperial College London
+  link: http://www.imperial.ac.uk/
+
+- name: About this Site 
+  link: /website-information
